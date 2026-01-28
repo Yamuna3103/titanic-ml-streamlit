@@ -33,6 +33,7 @@ input_df = pd.DataFrame([{
     "Embarked": embarked
 }])
 
+
 if st.button("Predict"):
     prediction = model.predict(input_df)[0]
 
